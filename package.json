@@ -1,7 +1,7 @@
 {
   "name": "soundshare-frontend",
   "version": "1.0.0",
-  "homepage": "https://<your-github-username>.github.io/soundshare/",
+  "homepage": "https://nabthedev.github.io/soundshare/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
