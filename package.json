@@ -1,19 +1,20 @@
 {
   "name": "soundshare-frontend",
   "version": "1.0.0",
-  "homepage": "https://<your-github-username>.github.io/soundshare/",
+  "homepage": "https://nabthedev.github.io/soundshare/",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "react": "^18.0.0", // or whatever version you are using
-    "react-dom": "^18.0.0", // same here
-    "react-router-dom": "^6.0.0" // if you're using React Router for navigation
-    // Add any other dependencies your project requires
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "react-scripts": "5.0.0" // or the version of react-scripts you're using
+    "react-scripts": "^5.0.0"
   }
 }
